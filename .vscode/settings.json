@@ -1,0 +1,30 @@
+{
+    "python.defaultInterpreterPath":"C:\\Users\\Marco\\Projects\\house_prediction\\conda-env\\python.exe",
+    "terminal.integrated.defaultProfile.windows": "PowerShell(Anaconda)",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell(Anaconda)": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": [
+                "-ExecutionPolicy"
+                , "ByPass" 
+                , "-NoExit"
+                , "-Command"
+                , "& C:\\Users\\Marco\\Miniconda3\\shell\\condabin\\conda-hook.ps1 ; conda activate conda-env"
+            ],
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "python.analysis.extraPaths": [
+        "./conda-env/Lib/site-packages/scipy/io"
+    ]
+}
