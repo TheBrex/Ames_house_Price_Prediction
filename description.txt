@@ -300,7 +300,7 @@ Bsmt Qual (Ordinal): Evaluates the height of the basement
        Gd	Good (90-99 inches)
        TA	Typical (80-89 inches)
        Fa	Fair (70-79 inches)
-       Po	Poor (<70 inches
+       Po	Poor (<70 inches)
        NA	No Basement
 		
 Bsmt Cond (Ordinal): Evaluates the general condition of the basement

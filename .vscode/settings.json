@@ -26,5 +26,6 @@
     },
     "python.analysis.extraPaths": [
         "./conda-env/Lib/site-packages/scipy/io"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "off"
 }

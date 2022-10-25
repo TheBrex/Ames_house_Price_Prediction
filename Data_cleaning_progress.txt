@@ -1,0 +1,13 @@
+DATA CLEANING
+
+-uniformizzazione dei tipi in float64 da int64
+-trasformazione delle features riguardanti annate in tipologie categoriali: int64 -> object0
+-suddivisione feature quantitative e qualitative
+-rimozione della feature 'Pool_QC' in favore della nuova feature più esplicativa 'Has_Pool'
+-rimozione delle features 'Full_Bath', 'Half_Bath', 'Bsmt_Full_Bath', 'Bsmt_Half_Bath' e sommate in 'Total_Bath'
+
+
+
+MODEL SELECTION
+-utilizzare Random Forest -> feature selecontion(provare) : - recursive elimination e - feature importance (notebook7)
+						  -> best feature subset : - cross validation
