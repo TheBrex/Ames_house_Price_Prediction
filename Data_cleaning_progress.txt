@@ -1,4 +1,4 @@
-DATA CLEANING
+DATA PROCESSING
 
 -uniformizzazione dei tipi in float64 da int64
 -suddivisione feature quantitative e qualitative
@@ -8,9 +8,22 @@ DATA CLEANING
 
 -rimozione della feature 'Pool_QC' in favore della nuova feature più esplicativa 'Has_Pool'
 -rimozione delle features 'Full_Bath', 'Half_Bath', 'Bsmt_Full_Bath', 'Bsmt_Half_Bath' e sommate in 'Total_Bath'
-
-
+-plotting
+-creazione feature 'TotalSF' per avere la superficie totale della casa
+-creazione variabile 'Has_Garage'
+-suddivisione tipologia di econding di variabili categoriali : one_hot_enc & label_enc  
+-individuazione degli outliers
 
 MODEL SELECTION
 -utilizzare Random Forest -> feature selecontion(provare) : - recursive elimination e - feature importance (notebook7)
 						  -> best feature subset : - cross validation
+
+-utilizzare regressione lineare multipla -> - AIC o BIC per trovare feature migliori 
+											- cross validation
+											
+
+-allenare i modelli su dataset pre-processato e dataset finale e vedere le differenze
+-allenare i modelli su dataset con e senza outliers (prendere un punto e vedere come si comportano i modelli)
+
+POST ANALYSIS
+-provare a clusterizzare il dataset
