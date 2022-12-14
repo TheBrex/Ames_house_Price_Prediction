@@ -27,5 +27,14 @@
     "python.analysis.extraPaths": [
         "./conda-env/Lib/site-packages/scipy/io"
     ],
-    "python.analysis.typeCheckingMode": "off"
+    "python.analysis.typeCheckingMode": "off",
+    "spellright.language": [
+        "en",
+        "it"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }

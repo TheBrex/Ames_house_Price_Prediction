@@ -5,18 +5,28 @@ DATA PROCESSING
 -analisi matrice di correlazione
 -isolate le coppie di features con indice di correlazione maggiore
 
+FEATURE ENGINEERING
+Feature derivate :
+-has pool
+-has garage 
+-has fireplace 
+-is remodelled 
+-has fence
+-bathrooms number 
+-has central_air 
+-has Alley
+-has Basement 
+-House age when bought
+-condition(da fare)
+with
+PLOTTING
 
--rimozione della feature 'Pool_QC' in favore della nuova feature più esplicativa 'Has_Pool'
--rimozione delle features 'Full_Bath', 'Half_Bath', 'Bsmt_Full_Bath', 'Bsmt_Half_Bath' e sommate in 'Total_Bath'
--plotting
--creazione feature 'TotalSF' per avere la superficie totale della casa
--creazione variabile 'Has_Garage'
--suddivisione tipologia di econding di variabili categoriali : one_hot_enc & label_enc  
--individuazione degli outliers
+-suddivisione tipologia di encoding di variabili categoriali : one_hot_enc & label_enc  
+-individuazione degli outliers tramite random forest
 
 MODEL SELECTION
--utilizzare Random Forest -> feature selecontion(provare) : - recursive elimination e - feature importance (notebook7)
-						  -> best feature subset : - cross validation
+-utilizzare Random Forest -> feature selection(provare) : - recursive elimination e - feature importance (notebook7)
+						  -> best feature subset : - k cross validation
 
 -utilizzare regressione lineare multipla -> - AIC o BIC per trovare feature migliori 
 											- cross validation
