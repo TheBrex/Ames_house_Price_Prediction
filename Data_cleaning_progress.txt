@@ -25,15 +25,14 @@ PLOTTING
 -individuazione degli outliers tramite random forest
 
 MODEL SELECTION
--utilizzare Random Forest -> feature selection(provare) : - recursive elimination e - feature importance (notebook7)
+-utilizzare Random Forest -> feature importance (notebook7)
+						  -> model tuning
 						  -> best feature subset : - k cross validation
-
--utilizzare regressione lineare multipla -> - AIC o BIC per trovare feature migliori 
+							
+-utilizzare Boosting -> - AIC o BIC per trovare feature migliori 
 											- cross validation
-											
 
--allenare i modelli su dataset pre-processato e dataset finale e vedere le differenze
 -allenare i modelli su dataset con e senza outliers (prendere un punto e vedere come si comportano i modelli)
 
-POST ANALYSIS
--provare a clusterizzare il dataset
+PCA visualization
+
