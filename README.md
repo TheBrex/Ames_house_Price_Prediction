@@ -1,9 +1,9 @@
 # HOUSE PRICES IN AMES
 
-L'oobiettivo di questo progetto è affrontare un'analisi esplorativa approfondita di un dataset riguardante le abitazione in Ames(Iowa), 
-per andare applicare dei metodi di supervised learning per la predizione del prezzo di vendita delle abitazioni stesse, il tutto preceduto
+L'obiettivo di questo progetto è affrontare un'analisi esplorativa approfondita di un dataset riguardante le abitazioni in Ames(Iowa) e le loro caratteristiche, 
+per andare ad applicare metodi di supervised learning per la predizione del prezzo di vendita delle abitazioni stesse, il tutto preceduto
 dall'utilizzo delle best practises nella normalizzazione delle caratteristiche riportate nel dataset.
-Sono state adottati pricipalmente 3 metodologie di apprendimento supervisionato, alcune applicate a situazioni differenti del dataset per verificare eventuali differenze
+Sono state adottate 3 metodologie di apprendimento supervisionato, alcune applicate a situazioni differenti del dataset per verificare eventuali differenze
 significative nei risultati.
 In particolare:
 - Tecnica di Bagging : Random Forest regressor
