@@ -6,7 +6,7 @@ dall'utilizzo delle best practises nella normalizzazione delle caratteristiche r
 
 Il progetto si sviluppa in  4 fasi:
 - Esplorazione del dataset, analisi di correlazione delle features
-- Data Visualization e features engeneering
+- Data Visualization e features engineering 
 - Individuazione di outliers tramite Isolation Forest
 - Tuning e utilizzo di modelli di supervised learning per le predizioni
 
